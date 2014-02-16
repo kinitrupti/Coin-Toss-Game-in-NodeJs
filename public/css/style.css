@@ -1,0 +1,68 @@
+body {
+    background-color:#AAB6A2;
+    font-family:courier;
+    margin:0;
+    padding:0;
+}
+
+#content {
+    width: 250px;
+    margin: 10px auto 10px auto;
+    background-color: white;
+    text-align: center;
+    border:2px dashed #666666;
+}
+
+
+
+
+.coin:hover {
+	cursor: pointer;
+}
+
+.inner {
+	position:relative;
+	width: 95px;
+	height: 95px;
+	border: 2px dotted dimgrey;
+	border-radius: 100%;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	vertical-align: text-middle;
+}
+
+.inner p {
+	position: absolute;
+	color: dimgrey;
+	width: 100%;
+	top:47.5%;
+	margin-top: -10%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	font-family: cursive;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.result {
+	transform:rotateX(0deg);
+	-webkit-transform:rotateX(0deg);
+	-moz-transform:rotateX(0deg); 
+}
+
+#resultTxt {
+	display: none;
+}
+
+input[type="button"] {
+    background-color: #ff6600;
+    font-family: courier;
+    color: white;
+    border: none;
+}
+
+input[type="button"]:hover {
+    background-color:#ff8a3d;
+    cursor:pointer;    
+}
